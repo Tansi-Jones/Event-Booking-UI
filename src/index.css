@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply text-lg text-black py-2 px-4;
+}
+
+.btn-gold {
+  @apply bg-gold rounded-lg;
+}
+
+.heading-2 {
+  @apply text-3xl text-gray-950 font-bold;
+}
